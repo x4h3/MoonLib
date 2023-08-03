@@ -8,9 +8,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/x4h3/MoonLib/main/mai
 
 ## Changing local player Speed
 ```lua
-Speed(16)
+Speed(16, true)
 --[[
-    Speed( <number> )
+    Usage: Speed( <number>, <true/false?> )
+    True or False is to define if the function is activated or not, if a value is not defined it will be activated by default.
 ]]
 ```
 
@@ -18,6 +19,7 @@ Speed(16)
 ```lua
 JPower(50)
 --[[
-    JPower( <number> )
+    JPower( <number>, <true/false?> )
+    True or False is to define if the function is activated or not, if a value is not defined it will be activated by default.
 ]]
 ```
