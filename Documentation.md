@@ -13,3 +13,11 @@ Speed(16)
     Speed( <number> )
 ]]
 ```
+
+## Changing local player Jump Power
+```lua
+JPower(50)
+--[[
+    JPower( <number> )
+]]
+```
