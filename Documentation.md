@@ -17,7 +17,7 @@ Speed(16, true)
 
 ## Changing local player Jump Power
 ```lua
-JPower(50)
+JPower(50, true)
 --[[
     JPower( <number>, <true/false?> )
     True or False is to define if the function is activated or not, if a value is not defined it will be activated by default.
